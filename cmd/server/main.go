@@ -42,6 +42,6 @@ func main() {
 		IdleTimeout:  60 * time.Second,
 	}
 
-	log.Println("✅ Server running at http://localhost:8080")
+	log.Println(" Server running at http://localhost:8080")
 	log.Fatal(srv.ListenAndServe())
 }

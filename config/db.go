@@ -24,7 +24,6 @@ func ConnectDB() (*sql.DB, error) {
 		return nil, err
 	}
 
-	log.Println("📦 Connected to MySQL")
+	log.Println(" Connected to MySQL")
 	return db, nil
 }
-   
